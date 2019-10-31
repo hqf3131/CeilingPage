@@ -1,0 +1,6 @@
+framework module Pods_CeilingPageDemo {
+  umbrella header "Pods-CeilingPageDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

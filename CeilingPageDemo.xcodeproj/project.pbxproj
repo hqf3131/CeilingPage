@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A68D615F16D21B57D5AA574 /* Pods_CeilingPageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7837B677986C04A54898E757 /* Pods_CeilingPageDemo.framework */; };
+		A255C3B8236AD9C400FFDCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255C3B7236AD9C400FFDCAD /* AppDelegate.swift */; };
+		A255C3BA236AD9C400FFDCAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255C3B9236AD9C400FFDCAD /* SceneDelegate.swift */; };
+		A255C3BC236AD9C400FFDCAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255C3BB236AD9C400FFDCAD /* ViewController.swift */; };
+		A255C3BF236AD9C400FFDCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A255C3BD236AD9C400FFDCAD /* Main.storyboard */; };
+		A255C3C1236AD9C600FFDCAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A255C3C0236AD9C600FFDCAD /* Assets.xcassets */; };
+		A255C3C4236AD9C600FFDCAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A255C3C2236AD9C600FFDCAD /* LaunchScreen.storyboard */; };
+		A255C3CE236AD9FF00FFDCAD /* HQFCeilingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255C3CC236AD9FF00FFDCAD /* HQFCeilingViewController.swift */; };
+		A255C3CF236AD9FF00FFDCAD /* HQFCeilingChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255C3CD236AD9FF00FFDCAD /* HQFCeilingChildViewController.swift */; };
+		A255C3D1236ADE0900FFDCAD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255C3D0236ADE0900FFDCAD /* UIView+Extension.swift */; };
+		A255C3D3236AE0D000FFDCAD /* HomeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255C3D2236AE0D000FFDCAD /* HomeMainViewController.swift */; };
+		A255C3D5236AE0E300FFDCAD /* HomeMainChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255C3D4236AE0E300FFDCAD /* HomeMainChildViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4607A97E2A1386D37642C16D /* Pods-CeilingPageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeilingPageDemo.debug.xcconfig"; path = "Target Support Files/Pods-CeilingPageDemo/Pods-CeilingPageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7837B677986C04A54898E757 /* Pods_CeilingPageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CeilingPageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A255C3B4236AD9C400FFDCAD /* CeilingPageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeilingPageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A255C3B7236AD9C400FFDCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A255C3B9236AD9C400FFDCAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A255C3BB236AD9C400FFDCAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A255C3BE236AD9C400FFDCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A255C3C0236AD9C600FFDCAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A255C3C3236AD9C600FFDCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A255C3C5236AD9C600FFDCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A255C3CC236AD9FF00FFDCAD /* HQFCeilingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQFCeilingViewController.swift; sourceTree = "<group>"; };
+		A255C3CD236AD9FF00FFDCAD /* HQFCeilingChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQFCeilingChildViewController.swift; sourceTree = "<group>"; };
+		A255C3D0236ADE0900FFDCAD /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A255C3D2236AE0D000FFDCAD /* HomeMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainViewController.swift; sourceTree = "<group>"; };
+		A255C3D4236AE0E300FFDCAD /* HomeMainChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainChildViewController.swift; sourceTree = "<group>"; };
+		A84E82558B47048C81CC785C /* Pods-CeilingPageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeilingPageDemo.release.xcconfig"; path = "Target Support Files/Pods-CeilingPageDemo/Pods-CeilingPageDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A255C3B1236AD9C400FFDCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A68D615F16D21B57D5AA574 /* Pods_CeilingPageDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278D85998E7794533E5AE346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4607A97E2A1386D37642C16D /* Pods-CeilingPageDemo.debug.xcconfig */,
+				A84E82558B47048C81CC785C /* Pods-CeilingPageDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		990421214D5F8DADEEAB85AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7837B677986C04A54898E757 /* Pods_CeilingPageDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A255C3AB236AD9C400FFDCAD = {
+			isa = PBXGroup;
+			children = (
+				A255C3B6236AD9C400FFDCAD /* CeilingPageDemo */,
+				A255C3B5236AD9C400FFDCAD /* Products */,
+				278D85998E7794533E5AE346 /* Pods */,
+				990421214D5F8DADEEAB85AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A255C3B5236AD9C400FFDCAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A255C3B4236AD9C400FFDCAD /* CeilingPageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A255C3B6236AD9C400FFDCAD /* CeilingPageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A255C3CB236AD9FF00FFDCAD /* HoverPage */,
+				A255C3B7236AD9C400FFDCAD /* AppDelegate.swift */,
+				A255C3B9236AD9C400FFDCAD /* SceneDelegate.swift */,
+				A255C3BB236AD9C400FFDCAD /* ViewController.swift */,
+				A255C3D2236AE0D000FFDCAD /* HomeMainViewController.swift */,
+				A255C3D4236AE0E300FFDCAD /* HomeMainChildViewController.swift */,
+				A255C3BD236AD9C400FFDCAD /* Main.storyboard */,
+				A255C3C0236AD9C600FFDCAD /* Assets.xcassets */,
+				A255C3C2236AD9C600FFDCAD /* LaunchScreen.storyboard */,
+				A255C3C5236AD9C600FFDCAD /* Info.plist */,
+			);
+			path = CeilingPageDemo;
+			sourceTree = "<group>";
+		};
+		A255C3CB236AD9FF00FFDCAD /* HoverPage */ = {
+			isa = PBXGroup;
+			children = (
+				A255C3D0236ADE0900FFDCAD /* UIView+Extension.swift */,
+				A255C3CC236AD9FF00FFDCAD /* HQFCeilingViewController.swift */,
+				A255C3CD236AD9FF00FFDCAD /* HQFCeilingChildViewController.swift */,
+			);
+			path = HoverPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A255C3B3236AD9C400FFDCAD /* CeilingPageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A255C3C8236AD9C600FFDCAD /* Build configuration list for PBXNativeTarget "CeilingPageDemo" */;
+			buildPhases = (
+				D80A61F2A28A06DFCE55207C /* [CP] Check Pods Manifest.lock */,
+				A255C3B0236AD9C400FFDCAD /* Sources */,
+				A255C3B1236AD9C400FFDCAD /* Frameworks */,
+				A255C3B2236AD9C400FFDCAD /* Resources */,
+				94848D973DB49C6A5C52A1B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CeilingPageDemo;
+			productName = CeilingPageDemo;
+			productReference = A255C3B4236AD9C400FFDCAD /* CeilingPageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A255C3AC236AD9C400FFDCAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Hubery;
+				TargetAttributes = {
+					A255C3B3236AD9C400FFDCAD = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = A255C3AF236AD9C400FFDCAD /* Build configuration list for PBXProject "CeilingPageDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A255C3AB236AD9C400FFDCAD;
+			productRefGroup = A255C3B5236AD9C400FFDCAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A255C3B3236AD9C400FFDCAD /* CeilingPageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A255C3B2236AD9C400FFDCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255C3C4236AD9C600FFDCAD /* LaunchScreen.storyboard in Resources */,
+				A255C3C1236AD9C600FFDCAD /* Assets.xcassets in Resources */,
+				A255C3BF236AD9C400FFDCAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94848D973DB49C6A5C52A1B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CeilingPageDemo/Pods-CeilingPageDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CeilingPageDemo/Pods-CeilingPageDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CeilingPageDemo/Pods-CeilingPageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80A61F2A28A06DFCE55207C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CeilingPageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A255C3B0236AD9C400FFDCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255C3D1236ADE0900FFDCAD /* UIView+Extension.swift in Sources */,
+				A255C3CF236AD9FF00FFDCAD /* HQFCeilingChildViewController.swift in Sources */,
+				A255C3BC236AD9C400FFDCAD /* ViewController.swift in Sources */,
+				A255C3CE236AD9FF00FFDCAD /* HQFCeilingViewController.swift in Sources */,
+				A255C3B8236AD9C400FFDCAD /* AppDelegate.swift in Sources */,
+				A255C3BA236AD9C400FFDCAD /* SceneDelegate.swift in Sources */,
+				A255C3D3236AE0D000FFDCAD /* HomeMainViewController.swift in Sources */,
+				A255C3D5236AE0E300FFDCAD /* HomeMainChildViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A255C3BD236AD9C400FFDCAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A255C3BE236AD9C400FFDCAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A255C3C2236AD9C600FFDCAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A255C3C3236AD9C600FFDCAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A255C3C6236AD9C600FFDCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A255C3C7236AD9C600FFDCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A255C3C9236AD9C600FFDCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4607A97E2A1386D37642C16D /* Pods-CeilingPageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CeilingPageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.CeilingPageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A255C3CA236AD9C600FFDCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84E82558B47048C81CC785C /* Pods-CeilingPageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CeilingPageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.CeilingPageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A255C3AF236AD9C400FFDCAD /* Build configuration list for PBXProject "CeilingPageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A255C3C6236AD9C600FFDCAD /* Debug */,
+				A255C3C7236AD9C600FFDCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A255C3C8236AD9C600FFDCAD /* Build configuration list for PBXNativeTarget "CeilingPageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A255C3C9236AD9C600FFDCAD /* Debug */,
+				A255C3CA236AD9C600FFDCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A255C3AC236AD9C400FFDCAD /* Project object */;
+}
